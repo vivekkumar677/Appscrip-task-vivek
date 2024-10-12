@@ -20,18 +20,17 @@
     display: flex;
     margin-top: 30px;
     width: 150%;
-    
-    
 }
 
 .inputtag{
     border-bottom: 1px solid black;
-  outline: none;
-  background-color: gray;
-  color: black;
-  height: 30px;
-  
-  width: 100%;
+    outline: none;
+    background-color: white;
+    color: black;
+    height: 30px;
+    padding: 14px 24px 14px 24px;
+    gap: 8px;
+    width: 100%;
 }
 .inputbtn{
     margin-left: 10px;
@@ -79,6 +78,23 @@
     width: 120%;
     margin-top: 30px;
 }
+
+.accepts {
+    margin-top: 20px;
+    font-family: Simplon Norm;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.accepts span {
+    font-family: Simplon Norm;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+
+}
+
 /* media screen or responsive */
 @media screen and (max-width: 780px){
     .upbox{

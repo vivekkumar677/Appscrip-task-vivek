@@ -53,13 +53,13 @@ const Home = () => {
             <div className={styles.toppart} onMouseLeave={handleMouseLeave}>
                 <div className={styles.topin} onMouseLeave={handleMouseLeave}>
                     <h1 className={styles.hedding}>DISCOVER OUR PRODUCTS</h1>
-                    <p className={styles.para1}>Welcome to our shopping app, where convenience meets style! Explore our curated collection and discover your next favorite finds with just a click.</p>
+                    <p className={styles.para1}>Lorem ipsum dolor sit amet consectetur. Amet est posuere rhoncus scelerisque. Dolor integer scelerisque nibh amet mi ut elementum dolor.</p>
                 </div>
             </div>
             <div className={styles.filterbar} onMouseLeave={handleMouseLeave}>
                 <div className={styles.box}>
                     <p className={styles.filterno}>{products1.length}</p>
-                    <p className={styles.filter} onClick={showfilter} >{showFliter? `< HIDE FILTER`:`> SHOW FILTER`}</p>
+                    <p className={styles.filter} onClick={showfilter} >{showFliter? `ITEMS < HIDE FILTER`:`> SHOW FILTER`}</p>
                     <p className={styles.deffilter} onMouseEnter={handleMouseEnter} >default filter</p>
                 </div>
                 {/*here we used conditional rendring and string interpolation*/}

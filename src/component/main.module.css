@@ -10,12 +10,25 @@
     justify-content: center;
 }
 .hedding{
-    font-weight: 200;
-    font-size: 45px;
-    margin-top: 10px;
+    font-weight: 400;
+    font-size: 44px;
+    font-family: Simplon Norm;
+    margin-top: 50px;
+    line-height: 72px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #252020;
 }
 .para1{
-    margin-top: 10px;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: Simplon Norm;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #252020;
+    margin-bottom: 40px;
 }
 .topin{
     width: 50%;
@@ -24,8 +37,8 @@
 /*this css filter bar for hide and show side bar and dispalying number of products */
 .filterbar{
     width: 80%;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+    border-top: 1px solid #E5E5E5;
+    border-bottom: 1px solid #E5E5E5;
     margin-top: 10px;
     margin-bottom: 10px;
     margin: auto;
@@ -55,31 +68,31 @@
 .toggle{
     width: 15%;
     background-color: white;
-    border: 1px solid black;
+    border: 1px solid #E5E5E5;
     position: relative;
     margin-left: auto;    
 }
 .toggle1{
     font-weight: 600;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #E5E5E5;
 }
 .toggle2{
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #E5E5E5;
     padding: 4px;
     cursor: pointer;
 }
 .toggle3{
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #E5E5E5;
     padding: 4px;
     cursor: pointer;
 }
 .toggle4{
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #E5E5E5;
     padding: 4px;
     cursor: pointer;
 }
 .toggle5{
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #E5E5E5;
     padding: 4px;
     cursor: pointer;
 }
@@ -89,14 +102,14 @@
 }
 /*this css for sidebar in Idal option  */
 .idealbox{
-    border-bottom: 1px black solid;
+    border-bottom: 1px #E5E5E5 solid;
     padding-top: 10px;
     padding-bottom: 10px;
     
 }
 /*this css for sidebar in Ocassion option  */
 .ocassionbox{
-    border-bottom: 1px black solid;
+    border-bottom: 1px #E5E5E5 solid;
     padding-top: 10px;
     padding-bottom: 10px;
     
@@ -117,7 +130,7 @@
 }
 /*this css for sidebar in costomize option */
 .costomize{
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #E5E5E5;
 }
 /*this css for flex sidebar and porducts */
 .container{

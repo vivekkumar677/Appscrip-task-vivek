@@ -18,7 +18,7 @@ const Footer = () => {
                 <p className={styles.font1}>BE THE FIRST TO KNOW</p>
                 <p className={styles.mt1}>Sign up to updatefrom meta mouse</p>
                 <div className={styles.inputbox}>
-                    <input type="text" className={styles.inputtag}/>
+                    <input type="text" className={styles.inputtag} placeholder='Enter your e-mail...'/>
                     <button className={styles.inputbtn}><span className={styles.inputspan}>Subscribe</span></button>
                 </div>
             </div>
@@ -62,7 +62,7 @@ const Footer = () => {
                     <img src={insta} alt="insta icon" />
                     <img src={linkden} alt="lnikdin icon" />
                 </div>
-                <p>metta muse</p>
+                <p className={styles.accepts}>mettā muse <span>ACCEPTS</span></p>
                 <div className={styles.paybox}>
                     <img src={gpay} alt="google pay icon" />
                     <img src={voda} alt=" voda phone" />
